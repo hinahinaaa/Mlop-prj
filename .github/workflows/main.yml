@@ -25,6 +25,6 @@ jobs:
         run: wandb login ${{ secrets.WANDB_KEY_ID }}
 
       - name: Testing FastAPI
-        run: pytest -vv -s
+        run: pytest test-app.py -vv -s
 
 
