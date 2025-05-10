@@ -48,7 +48,7 @@ jobs:
         run: PYTHONPATH=. pytest tests/test_app.py
 
   deploy:
-    needs: test_api
+    needs: test-api
     runs-on: macos-latest
 
     steps:
