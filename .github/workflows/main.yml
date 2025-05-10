@@ -45,4 +45,4 @@ jobs:
           pip install pytest
 
       - name: Run API tests
-        run: pytest tests/test_app/test_api.py
+        run: pytest tests/test_app.py
