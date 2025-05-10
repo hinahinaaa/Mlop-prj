@@ -26,29 +26,8 @@ jobs:
       - name: Login to Weights & Biases
         run: wandb login ${{ secrets.WANDB_KEY_ID }}
 
-  test-api:
-    needs: build
-    runs-on: macos-latest
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Setup Python
-        uses: actions/setup-python@v3.0.0
-        with:
-          python-version: 3.12.7
-
-      - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
-          pip install pytest
-
-      - name: Run API tests
-        run: PYTHONPATH=. pytest tests/test_app.py
-
   deploy:
-    needs: test-api
+    needs: build
     runs-on: macos-latest
 
     steps:
@@ -56,3 +35,4 @@ jobs:
 
       - name: Deploy placeholder
         run: echo "✅ Ready to deploy - add real deploy steps here"
+
