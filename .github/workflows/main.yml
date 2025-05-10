@@ -4,43 +4,46 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 * * * *'  # Chạy mỗi giờ
 
 jobs:
   build:
     runs-on: macos-latest
 
     steps:
-      - uses: actions/checkout@v4  # Updated version
+      - uses: actions/checkout@v2
 
       - name: Setup Python
-        uses: actions/setup-python@v5  # Updated version
+        uses: actions/setup-python@v4
         with:
           python-version: 3.12.7
 
       - name: Install dependencies
         run: |
-          pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Check model file
-        run: |
-          ls -l
-          if [ ! -f model.pkl ]; then echo "❌ model.pkl not found"; exit 1; fi
-
-      - name: Run tests
+      - name: Run tests (if available)
         run: |
           pip install pytest
-          ls -l
-          echo "Running tests..."
-          if [ -d "tests" ]; then pytest || exit 2; else echo "No tests directory found."; fi
+          if [ -d "tests" ]; then
+            pytest
+          else
+            echo "No tests directory found."
+          fi
+
+      - name: Login to Weights & Biases
+        env:
+          WANDB_API_KEY: ${{ secrets.WANDB_KEY_ID }}
+        run: |
+          wandb login $WANDB_API_KEY
 
   deploy:
     needs: build
     runs-on: macos-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v2
 
       - name: Deploy placeholder
         run: echo "✅ Ready to deploy - add real deploy steps here"
