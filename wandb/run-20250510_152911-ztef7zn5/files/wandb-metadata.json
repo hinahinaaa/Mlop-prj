@@ -1,0 +1,27 @@
+{
+  "os": "Windows-11-10.0.26100-SP0",
+  "python": "CPython 3.12.7",
+  "startedAt": "2025-05-10T08:29:15.441864Z",
+  "program": "c:\\Users\\ASUS\\Desktop\\Mlop prj\\fecth data.ipynb",
+  "codePath": "fecth data.ipynb",
+  "email": "kunnhox2301@gmail.com",
+  "root": "c:\\Users\\ASUS\\Desktop\\Mlop prj",
+  "host": "LAPTOP-G2BCALLP",
+  "executable": "c:\\Users\\ASUS\\anaconda3\\python.exe",
+  "codePathLocal": "fecth data.ipynb",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "240226996224",
+      "used": "201992523776"
+    }
+  },
+  "memory": {
+    "total": "21154324480"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

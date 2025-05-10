@@ -1,0 +1,5 @@
+/.env
+/clean_data.csv
+/encoded_data.csv
+/pca_data
+/raw_data.csv

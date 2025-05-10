@@ -1,0 +1,17 @@
+{"time":"2025-05-10T14:40:37.8513437+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\ASUS\\Desktop\\Mlop prj\\wandb\\run-20250510_144031-iiyt1i2b\\logs\\debug-core.log"}
+{"time":"2025-05-10T14:40:38.2717842+07:00","level":"INFO","msg":"created new stream","id":"iiyt1i2b"}
+{"time":"2025-05-10T14:40:38.2717842+07:00","level":"INFO","msg":"stream: started","id":"iiyt1i2b"}
+{"time":"2025-05-10T14:40:38.2717842+07:00","level":"INFO","msg":"handler: started","stream_id":"iiyt1i2b"}
+{"time":"2025-05-10T14:40:38.2717842+07:00","level":"INFO","msg":"sender: started","stream_id":"iiyt1i2b"}
+{"time":"2025-05-10T14:40:38.2717842+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"iiyt1i2b"}
+{"time":"2025-05-10T14:40:38.6295615+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-10T14:40:41.0243192+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-10T14:40:42.1366328+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-10T14:40:42.1366328+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-10T14:40:43.1492885+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.7164387,"progress":"34B/34B"},{"desc":"uploading config.yaml","runtime_seconds":0.4618949,"progress":"443B/443B"}],"total_operations":2}}
+{"time":"2025-05-10T14:40:43.4566828+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-10T14:40:44.0529162+07:00","level":"INFO","msg":"stream: closing","id":"iiyt1i2b"}
+{"time":"2025-05-10T14:40:44.0529162+07:00","level":"INFO","msg":"handler: closed","stream_id":"iiyt1i2b"}
+{"time":"2025-05-10T14:40:44.0529162+07:00","level":"INFO","msg":"sender: closed","stream_id":"iiyt1i2b"}
+{"time":"2025-05-10T14:40:44.0529162+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"iiyt1i2b"}
+{"time":"2025-05-10T14:40:44.0529162+07:00","level":"INFO","msg":"stream: closed","id":"iiyt1i2b"}

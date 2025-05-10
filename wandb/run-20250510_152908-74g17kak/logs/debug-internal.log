@@ -1,0 +1,18 @@
+{"time":"2025-05-10T15:29:08.9207067+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\ASUS\\Desktop\\Mlop prj\\wandb\\run-20250510_152908-74g17kak\\logs\\debug-core.log"}
+{"time":"2025-05-10T15:29:09.3858025+07:00","level":"INFO","msg":"created new stream","id":"74g17kak"}
+{"time":"2025-05-10T15:29:09.3863378+07:00","level":"INFO","msg":"stream: started","id":"74g17kak"}
+{"time":"2025-05-10T15:29:09.3863378+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"74g17kak"}
+{"time":"2025-05-10T15:29:09.3863378+07:00","level":"INFO","msg":"sender: started","stream_id":"74g17kak"}
+{"time":"2025-05-10T15:29:09.3863378+07:00","level":"INFO","msg":"handler: started","stream_id":"74g17kak"}
+{"time":"2025-05-10T15:29:09.6961392+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-10T15:29:09.7000087+07:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-05-10T15:29:11.7049703+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T15:29:12.1503058+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-10T15:29:12.1503058+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-10T15:29:13.1699545+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact source-predict_house_price-c__Users_ASUS_Desktop_Mlop_prj_fecth_data.ipynb","runtime_seconds":1.0230938}],"total_operations":1}}
+{"time":"2025-05-10T15:29:15.1267837+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-10T15:29:15.4391022+07:00","level":"INFO","msg":"stream: closing","id":"74g17kak"}
+{"time":"2025-05-10T15:29:15.4391022+07:00","level":"INFO","msg":"handler: closed","stream_id":"74g17kak"}
+{"time":"2025-05-10T15:29:15.4391022+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"74g17kak"}
+{"time":"2025-05-10T15:29:15.4391022+07:00","level":"INFO","msg":"sender: closed","stream_id":"74g17kak"}
+{"time":"2025-05-10T15:29:15.4391022+07:00","level":"INFO","msg":"stream: closed","id":"74g17kak"}

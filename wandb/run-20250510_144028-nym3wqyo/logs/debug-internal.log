@@ -1,0 +1,18 @@
+{"time":"2025-05-10T14:40:28.6036981+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\ASUS\\Desktop\\Mlop prj\\wandb\\run-20250510_144028-nym3wqyo\\logs\\debug-core.log"}
+{"time":"2025-05-10T14:40:29.3665479+07:00","level":"INFO","msg":"created new stream","id":"nym3wqyo"}
+{"time":"2025-05-10T14:40:29.3665479+07:00","level":"INFO","msg":"stream: started","id":"nym3wqyo"}
+{"time":"2025-05-10T14:40:29.3670892+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"nym3wqyo"}
+{"time":"2025-05-10T14:40:29.3665479+07:00","level":"INFO","msg":"handler: started","stream_id":"nym3wqyo"}
+{"time":"2025-05-10T14:40:29.3670892+07:00","level":"INFO","msg":"sender: started","stream_id":"nym3wqyo"}
+{"time":"2025-05-10T14:40:29.6906664+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-10T14:40:29.6927532+07:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-05-10T14:40:31.2339461+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T14:40:31.6529084+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-10T14:40:31.6529084+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-10T14:40:32.6613788+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact source-predict_house_price-c__Users_ASUS_Desktop_Mlop_prj_fecth_data.ipynb","runtime_seconds":1.4305134,"subtasks":[{"desc":"fecth data.ipynb","runtime_seconds":0.1342455,"progress":"25.7KB/25.7KB"}]},{"desc":"uploading artifact source-predict_house_price-c__Users_ASUS_Desktop_Mlop_prj_fecth_data.ipynb","runtime_seconds":1.0118447},{"desc":"uploading config.yaml","runtime_seconds":0.4221616,"progress":"590B/590B"}],"total_operations":3}}
+{"time":"2025-05-10T14:40:37.3816439+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-10T14:40:37.8473411+07:00","level":"INFO","msg":"stream: closing","id":"nym3wqyo"}
+{"time":"2025-05-10T14:40:37.8473411+07:00","level":"INFO","msg":"handler: closed","stream_id":"nym3wqyo"}
+{"time":"2025-05-10T14:40:37.8473411+07:00","level":"INFO","msg":"sender: closed","stream_id":"nym3wqyo"}
+{"time":"2025-05-10T14:40:37.8473411+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nym3wqyo"}
+{"time":"2025-05-10T14:40:37.8473411+07:00","level":"INFO","msg":"stream: closed","id":"nym3wqyo"}
