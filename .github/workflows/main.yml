@@ -3,6 +3,8 @@ name: CI
 on:
   push:
     branches: [ main ]
+  schedule:
+    - cron: '0 * * * *'  # chạy mỗi giờ
 
 jobs:
   build:
@@ -24,5 +26,23 @@ jobs:
       - name: Login to Weights & Biases
         run: wandb login ${{ secrets.WANDB_KEY_ID }}
 
+  test-api:
+    runs-on: macos-latest
+    needs: build
 
+    steps:
+      - uses: actions/checkout@v2
 
+      - name: Setup Python
+        uses: actions/setup-python@v3.0.0
+        with:
+          python-version: 3.12.7
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest
+
+      - name: Run API tests
+        run: pytest tests/test_app/test_api.py
