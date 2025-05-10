@@ -24,5 +24,7 @@ jobs:
       - name: Login to Weights & Biases
         run: wandb login ${{ secrets.WANDB_KEY_ID }}
 
-      - name: Run API tests
-        run: pytest source/api -vv -s
+      - name: Testing FastAPI
+        run: pytest test_api.py -vv -s
+
+
