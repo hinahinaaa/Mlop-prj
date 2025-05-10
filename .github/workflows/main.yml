@@ -42,17 +42,17 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
+          pip install pytest
 
       - name: Run API tests
         run: PYTHONPATH=. pytest tests/test_app.py
 
   deploy:
-    needs: test-api
+    needs: test_api
     runs-on: macos-latest
-    if: github.ref == 'refs/heads/main'
 
     steps:
       - uses: actions/checkout@v2
 
       - name: Deploy placeholder
-        run: echo "✅ Deploy step executed (add your real deployment logic here)"
+        run: echo "✅ Ready to deploy - add real deploy steps here"
