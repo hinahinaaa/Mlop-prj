@@ -1,0 +1,17 @@
+{"time":"2025-05-10T17:10:42.2608574+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\ASUS\\Desktop\\Mlop prj\\wandb\\run-20250510_171042-ow8046kc\\logs\\debug-core.log"}
+{"time":"2025-05-10T17:10:42.7355819+07:00","level":"INFO","msg":"created new stream","id":"ow8046kc"}
+{"time":"2025-05-10T17:10:42.7361626+07:00","level":"INFO","msg":"stream: started","id":"ow8046kc"}
+{"time":"2025-05-10T17:10:42.7361626+07:00","level":"INFO","msg":"handler: started","stream_id":"ow8046kc"}
+{"time":"2025-05-10T17:10:42.7361626+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ow8046kc"}
+{"time":"2025-05-10T17:10:42.7361626+07:00","level":"INFO","msg":"sender: started","stream_id":"ow8046kc"}
+{"time":"2025-05-10T17:10:43.0668752+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-10T17:10:45.2666489+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-10T17:10:46.5033422+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-10T17:10:46.5033422+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-10T17:10:47.4345517+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-10T17:10:47.508359+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":0.0738073}],"total_operations":1}}
+{"time":"2025-05-10T17:10:47.8248281+07:00","level":"INFO","msg":"stream: closing","id":"ow8046kc"}
+{"time":"2025-05-10T17:10:47.8248281+07:00","level":"INFO","msg":"handler: closed","stream_id":"ow8046kc"}
+{"time":"2025-05-10T17:10:47.8248281+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ow8046kc"}
+{"time":"2025-05-10T17:10:47.8248281+07:00","level":"INFO","msg":"sender: closed","stream_id":"ow8046kc"}
+{"time":"2025-05-10T17:10:47.8253352+07:00","level":"INFO","msg":"stream: closed","id":"ow8046kc"}

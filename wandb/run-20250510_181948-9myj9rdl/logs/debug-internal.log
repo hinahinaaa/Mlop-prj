@@ -1,0 +1,16 @@
+{"time":"2025-05-10T18:19:50.4629786+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\ASUS\\Desktop\\Mlop prj\\wandb\\run-20250510_181948-9myj9rdl\\logs\\debug-core.log"}
+{"time":"2025-05-10T18:19:50.9543708+07:00","level":"INFO","msg":"created new stream","id":"9myj9rdl"}
+{"time":"2025-05-10T18:19:50.9548761+07:00","level":"INFO","msg":"stream: started","id":"9myj9rdl"}
+{"time":"2025-05-10T18:19:50.9548761+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"9myj9rdl"}
+{"time":"2025-05-10T18:19:50.9548761+07:00","level":"INFO","msg":"sender: started","stream_id":"9myj9rdl"}
+{"time":"2025-05-10T18:19:50.9548761+07:00","level":"INFO","msg":"handler: started","stream_id":"9myj9rdl"}
+{"time":"2025-05-10T18:19:51.2593804+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-10T18:20:21.9158064+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-10T18:20:21.9158064+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-10T18:20:22.9260411+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.3973711,"progress":"25B/25B"},{"desc":"uploading config.yaml","runtime_seconds":0.0771677,"progress":"565B/565B"}],"total_operations":2}}
+{"time":"2025-05-10T18:20:23.6042982+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-10T18:20:24.0806773+07:00","level":"INFO","msg":"stream: closing","id":"9myj9rdl"}
+{"time":"2025-05-10T18:20:24.0806773+07:00","level":"INFO","msg":"handler: closed","stream_id":"9myj9rdl"}
+{"time":"2025-05-10T18:20:24.0806773+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"9myj9rdl"}
+{"time":"2025-05-10T18:20:24.0806773+07:00","level":"INFO","msg":"sender: closed","stream_id":"9myj9rdl"}
+{"time":"2025-05-10T18:20:24.0806773+07:00","level":"INFO","msg":"stream: closed","id":"9myj9rdl"}

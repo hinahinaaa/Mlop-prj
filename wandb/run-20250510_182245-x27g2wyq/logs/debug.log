@@ -1,0 +1,26 @@
+2025-05-10 18:22:45,626 INFO    MainThread:42840 [wandb_init.py:setup_run_log_directory():724] Logging user logs to c:\Users\ASUS\Desktop\Mlop prj\wandb\run-20250510_182245-x27g2wyq\logs\debug.log
+2025-05-10 18:22:45,626 INFO    MainThread:42840 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to c:\Users\ASUS\Desktop\Mlop prj\wandb\run-20250510_182245-x27g2wyq\logs\debug-internal.log
+2025-05-10 18:22:45,626 INFO    MainThread:42840 [wandb_init.py:init():852] calling init triggers
+2025-05-10 18:22:45,626 INFO    MainThread:42840 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-05-10 18:22:47,013 INFO    MainThread:42840 [wandb_init.py:init():893] starting backend
+2025-05-10 18:22:47,013 INFO    MainThread:42840 [wandb_init.py:init():897] sending inform_init request
+2025-05-10 18:22:47,015 INFO    MainThread:42840 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-05-10 18:22:47,015 INFO    MainThread:42840 [wandb_init.py:init():907] backend started and connected
+2025-05-10 18:22:47,018 INFO    MainThread:42840 [wandb_run.py:_label_probe_notebook():1376] probe notebook
+2025-05-10 18:22:47,020 INFO    MainThread:42840 [wandb_run.py:_label_probe_notebook():1386] Unable to probe notebook: 'charmap' codec can't decode byte 0x81 in position 55182: character maps to <undefined>
+2025-05-10 18:22:47,020 INFO    MainThread:42840 [wandb_init.py:init():1005] updated telemetry
+2025-05-10 18:22:47,087 INFO    MainThread:42840 [wandb_init.py:init():1029] communicating run to backend with 90.0 second timeout
+2025-05-10 18:22:47,885 INFO    MainThread:42840 [wandb_init.py:init():1104] starting run threads in backend
+2025-05-10 18:22:48,036 INFO    MainThread:42840 [wandb_run.py:_console_start():2573] atexit reg
+2025-05-10 18:22:48,037 INFO    MainThread:42840 [wandb_run.py:_redirect():2421] redirect: wrap_raw
+2025-05-10 18:22:48,037 INFO    MainThread:42840 [wandb_run.py:_redirect():2490] Wrapping output streams.
+2025-05-10 18:22:48,037 INFO    MainThread:42840 [wandb_run.py:_redirect():2513] Redirects installed.
+2025-05-10 18:22:48,037 INFO    MainThread:42840 [wandb_init.py:init():1150] run started, returning control to user process
+2025-05-10 18:23:57,935 INFO    MainThread:42840 [wandb_run.py:_finish():2321] finishing run kngocun-/predict_house_price/x27g2wyq
+2025-05-10 18:23:57,935 INFO    MainThread:42840 [wandb_run.py:_atexit_cleanup():2538] got exitcode: 0
+2025-05-10 18:23:57,936 INFO    MainThread:42840 [wandb_run.py:_restore():2520] restore
+2025-05-10 18:23:57,936 INFO    MainThread:42840 [wandb_run.py:_restore():2526] restore done
+2025-05-10 18:23:59,819 INFO    MainThread:42840 [wandb_run.py:_footer_history_summary_info():4188] rendering history
+2025-05-10 18:23:59,820 INFO    MainThread:42840 [wandb_run.py:_footer_history_summary_info():4220] rendering summary
+2025-05-10 18:23:59,820 INFO    MainThread:42840 [wandb_run.py:_footer_sync_info():4149] logging synced files

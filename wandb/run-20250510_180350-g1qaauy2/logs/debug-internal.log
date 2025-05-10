@@ -1,0 +1,36 @@
+{"time":"2025-05-10T18:03:50.3669158+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\ASUS\\Desktop\\Mlop prj\\wandb\\run-20250510_180350-g1qaauy2\\logs\\debug-core.log"}
+{"time":"2025-05-10T18:03:50.9014197+07:00","level":"INFO","msg":"created new stream","id":"g1qaauy2"}
+{"time":"2025-05-10T18:03:50.901945+07:00","level":"INFO","msg":"stream: started","id":"g1qaauy2"}
+{"time":"2025-05-10T18:03:50.901945+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"g1qaauy2"}
+{"time":"2025-05-10T18:03:50.901945+07:00","level":"INFO","msg":"handler: started","stream_id":"g1qaauy2"}
+{"time":"2025-05-10T18:03:50.901945+07:00","level":"INFO","msg":"sender: started","stream_id":"g1qaauy2"}
+{"time":"2025-05-10T18:03:51.3517388+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-10T18:03:53.5240405+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-10T18:04:05.0416185+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T18:04:05.0499638+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-10T18:04:08.0349404+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T18:04:08.0556074+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-10T18:04:19.0275156+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T18:04:19.0411292+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-10T18:04:22.0319626+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T18:04:22.0379239+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-10T18:04:24.5210063+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T18:04:24.5258918+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-10T18:04:26.6250015+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T18:04:26.6344616+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-10T18:04:29.8446188+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T18:04:29.8505544+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-10T18:08:07.3603968+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T18:08:12.4869895+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-10T18:08:41.7693831+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T18:08:41.9270065+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-10T18:08:41.9446157+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T18:08:41.9646034+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-10T18:08:41.9646034+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-10T18:08:42.9763019+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4435479},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4430386,"progress":"26B/26B"},{"desc":"uploading config.yaml","runtime_seconds":0.1948653,"progress":"545B/545B"}],"total_operations":3}}
+{"time":"2025-05-10T18:08:43.2530635+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-10T18:08:43.6120053+07:00","level":"INFO","msg":"stream: closing","id":"g1qaauy2"}
+{"time":"2025-05-10T18:08:43.6120053+07:00","level":"INFO","msg":"handler: closed","stream_id":"g1qaauy2"}
+{"time":"2025-05-10T18:08:43.6120053+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"g1qaauy2"}
+{"time":"2025-05-10T18:08:43.6120053+07:00","level":"INFO","msg":"sender: closed","stream_id":"g1qaauy2"}
+{"time":"2025-05-10T18:08:43.6120053+07:00","level":"INFO","msg":"stream: closed","id":"g1qaauy2"}

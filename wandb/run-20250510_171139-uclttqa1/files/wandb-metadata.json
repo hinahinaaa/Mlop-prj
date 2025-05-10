@@ -1,0 +1,31 @@
+{
+  "os": "Windows-11-10.0.26100-SP0",
+  "python": "CPython 3.12.9",
+  "startedAt": "2025-05-10T10:11:39.702363Z",
+  "program": "c:\\Users\\ASUS\\Desktop\\Mlop prj\\3_preprocessing.ipynb",
+  "codePath": "3_preprocessing.ipynb",
+  "git": {
+    "remote": "https://github.com/I-KUN-I/Mlop-prj.git",
+    "commit": "68b05dc64f915f459f7136a1bd16eaa0d53bb9dc"
+  },
+  "email": "kunnhox2301@gmail.com",
+  "root": "c:\\Users\\ASUS\\Desktop\\Mlop prj",
+  "host": "LAPTOP-G2BCALLP",
+  "executable": "c:\\Users\\ASUS\\Desktop\\Mlop prj\\.env\\Scripts\\python.exe",
+  "codePathLocal": "3_preprocessing.ipynb",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "240226996224",
+      "used": "199174070272"
+    }
+  },
+  "memory": {
+    "total": "21154324480"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

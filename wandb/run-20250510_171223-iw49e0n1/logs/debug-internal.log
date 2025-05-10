@@ -1,0 +1,17 @@
+{"time":"2025-05-10T17:12:23.7164903+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\ASUS\\Desktop\\Mlop prj\\wandb\\run-20250510_171223-iw49e0n1\\logs\\debug-core.log"}
+{"time":"2025-05-10T17:12:24.2437629+07:00","level":"INFO","msg":"created new stream","id":"iw49e0n1"}
+{"time":"2025-05-10T17:12:24.2437629+07:00","level":"INFO","msg":"stream: started","id":"iw49e0n1"}
+{"time":"2025-05-10T17:12:24.2437629+07:00","level":"INFO","msg":"handler: started","stream_id":"iw49e0n1"}
+{"time":"2025-05-10T17:12:24.2437629+07:00","level":"INFO","msg":"sender: started","stream_id":"iw49e0n1"}
+{"time":"2025-05-10T17:12:24.2437629+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"iw49e0n1"}
+{"time":"2025-05-10T17:12:24.714685+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-10T17:12:26.9955538+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-10T17:12:28.2465668+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-10T17:12:28.2465668+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-10T17:12:29.2621925+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.7079062},{"desc":"uploading config.yaml","runtime_seconds":0.4286201,"progress":"525B/525B"}],"total_operations":2}}
+{"time":"2025-05-10T17:12:29.62287+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-10T17:12:30.1640118+07:00","level":"INFO","msg":"stream: closing","id":"iw49e0n1"}
+{"time":"2025-05-10T17:12:30.1640118+07:00","level":"INFO","msg":"handler: closed","stream_id":"iw49e0n1"}
+{"time":"2025-05-10T17:12:30.1640118+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"iw49e0n1"}
+{"time":"2025-05-10T17:12:30.1640118+07:00","level":"INFO","msg":"sender: closed","stream_id":"iw49e0n1"}
+{"time":"2025-05-10T17:12:30.1650168+07:00","level":"INFO","msg":"stream: closed","id":"iw49e0n1"}

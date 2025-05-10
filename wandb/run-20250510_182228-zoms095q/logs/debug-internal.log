@@ -1,0 +1,17 @@
+{"time":"2025-05-10T18:22:28.0229056+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\ASUS\\Desktop\\Mlop prj\\wandb\\run-20250510_182228-zoms095q\\logs\\debug-core.log"}
+{"time":"2025-05-10T18:22:28.6076113+07:00","level":"INFO","msg":"created new stream","id":"zoms095q"}
+{"time":"2025-05-10T18:22:28.6076113+07:00","level":"INFO","msg":"stream: started","id":"zoms095q"}
+{"time":"2025-05-10T18:22:28.6076113+07:00","level":"INFO","msg":"sender: started","stream_id":"zoms095q"}
+{"time":"2025-05-10T18:22:28.6076113+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"zoms095q"}
+{"time":"2025-05-10T18:22:28.6076113+07:00","level":"INFO","msg":"handler: started","stream_id":"zoms095q"}
+{"time":"2025-05-10T18:22:28.9929666+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-10T18:22:45.6131665+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T18:22:45.6336143+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-10T18:22:45.6336143+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-10T18:22:46.5178803+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-10T18:22:46.6448205+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":0.1269402}],"total_operations":1}}
+{"time":"2025-05-10T18:22:47.0130029+07:00","level":"INFO","msg":"stream: closing","id":"zoms095q"}
+{"time":"2025-05-10T18:22:47.0130029+07:00","level":"INFO","msg":"handler: closed","stream_id":"zoms095q"}
+{"time":"2025-05-10T18:22:47.0130029+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zoms095q"}
+{"time":"2025-05-10T18:22:47.0130029+07:00","level":"INFO","msg":"sender: closed","stream_id":"zoms095q"}
+{"time":"2025-05-10T18:22:47.0130029+07:00","level":"INFO","msg":"stream: closed","id":"zoms095q"}

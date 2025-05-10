@@ -1,0 +1,26 @@
+{"time":"2025-05-10T18:09:03.0095025+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\ASUS\\Desktop\\Mlop prj\\wandb\\run-20250510_180902-gu2xesc8\\logs\\debug-core.log"}
+{"time":"2025-05-10T18:09:03.5397616+07:00","level":"INFO","msg":"created new stream","id":"gu2xesc8"}
+{"time":"2025-05-10T18:09:03.5397616+07:00","level":"INFO","msg":"stream: started","id":"gu2xesc8"}
+{"time":"2025-05-10T18:09:03.5397616+07:00","level":"INFO","msg":"handler: started","stream_id":"gu2xesc8"}
+{"time":"2025-05-10T18:09:03.5397616+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"gu2xesc8"}
+{"time":"2025-05-10T18:09:03.5397616+07:00","level":"INFO","msg":"sender: started","stream_id":"gu2xesc8"}
+{"time":"2025-05-10T18:09:03.8602765+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-10T18:09:06.0408953+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-10T18:11:37.3155752+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T18:11:37.3191329+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-10T18:12:23.9552083+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T18:12:23.9603629+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-10T18:12:30.1448392+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T18:12:30.1517284+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-10T18:12:44.2236855+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T18:12:44.228325+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-10T18:19:48.3570281+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-10T18:19:48.3791493+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-10T18:19:48.3791493+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-10T18:19:49.3867721+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4192727},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4192727,"progress":"26B/26B"},{"desc":"uploading config.yaml","runtime_seconds":0.1711309,"progress":"565B/565B"}],"total_operations":3}}
+{"time":"2025-05-10T18:19:49.740114+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-10T18:19:50.4575776+07:00","level":"INFO","msg":"stream: closing","id":"gu2xesc8"}
+{"time":"2025-05-10T18:19:50.4575776+07:00","level":"INFO","msg":"handler: closed","stream_id":"gu2xesc8"}
+{"time":"2025-05-10T18:19:50.4575776+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gu2xesc8"}
+{"time":"2025-05-10T18:19:50.4575776+07:00","level":"INFO","msg":"sender: closed","stream_id":"gu2xesc8"}
+{"time":"2025-05-10T18:19:50.4575776+07:00","level":"INFO","msg":"stream: closed","id":"gu2xesc8"}
