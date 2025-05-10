@@ -1,10 +1,10 @@
-name: CI
+name: CI/CD
 
 on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 * * * *'  # chạy mỗi giờ
+    - cron: '0 * * * *'  # Chạy mỗi giờ
 
 jobs:
   build:
@@ -27,8 +27,8 @@ jobs:
         run: wandb login ${{ secrets.WANDB_KEY_ID }}
 
   test-api:
-    runs-on: macos-latest
     needs: build
+    runs-on: macos-latest
 
     steps:
       - uses: actions/checkout@v2
@@ -42,7 +42,17 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
-          pip install pytest
 
       - name: Run API tests
-        run: pytest tests/test_app.py
+        run: PYTHONPATH=. pytest tests/test_app.py
+
+  deploy:
+    needs: test-api
+    runs-on: macos-latest
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Deploy placeholder
+        run: echo "✅ Deploy step executed (add your real deployment logic here)"
