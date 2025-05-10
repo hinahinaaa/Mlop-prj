@@ -1,0 +1,16 @@
+{"time":"2025-05-10T15:54:04.3397966+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\ASUS\\Desktop\\Mlop prj\\wandb\\run-20250510_155404-yw26jmbs\\logs\\debug-core.log"}
+{"time":"2025-05-10T15:54:04.7691092+07:00","level":"INFO","msg":"created new stream","id":"yw26jmbs"}
+{"time":"2025-05-10T15:54:04.7691092+07:00","level":"INFO","msg":"stream: started","id":"yw26jmbs"}
+{"time":"2025-05-10T15:54:04.7691092+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"yw26jmbs"}
+{"time":"2025-05-10T15:54:04.7691092+07:00","level":"INFO","msg":"sender: started","stream_id":"yw26jmbs"}
+{"time":"2025-05-10T15:54:04.7691092+07:00","level":"INFO","msg":"handler: started","stream_id":"yw26jmbs"}
+{"time":"2025-05-10T15:54:05.0797035+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-10T15:54:05.5199118+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-10T15:54:05.5199118+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-10T15:54:06.5269269+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.1203201,"progress":"525B/525B"}],"total_operations":1}}
+{"time":"2025-05-10T15:54:06.7470902+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-10T15:54:07.0717926+07:00","level":"INFO","msg":"stream: closing","id":"yw26jmbs"}
+{"time":"2025-05-10T15:54:07.0717926+07:00","level":"INFO","msg":"handler: closed","stream_id":"yw26jmbs"}
+{"time":"2025-05-10T15:54:07.0717926+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yw26jmbs"}
+{"time":"2025-05-10T15:54:07.0717926+07:00","level":"INFO","msg":"sender: closed","stream_id":"yw26jmbs"}
+{"time":"2025-05-10T15:54:07.0717926+07:00","level":"INFO","msg":"stream: closed","id":"yw26jmbs"}

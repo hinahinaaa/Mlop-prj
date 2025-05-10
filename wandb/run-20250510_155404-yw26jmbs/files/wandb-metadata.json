@@ -1,0 +1,31 @@
+{
+  "os": "Windows-11-10.0.26100-SP0",
+  "python": "CPython 3.12.9",
+  "startedAt": "2025-05-10T08:54:04.338066Z",
+  "program": "c:\\Users\\ASUS\\Desktop\\Mlop prj\\2_eda.ipynb",
+  "codePath": "2_eda.ipynb",
+  "git": {
+    "remote": "https://github.com/I-KUN-I/Mlop-prj.git",
+    "commit": "c165a4d4432ad2057bd761186afed8ba746821b3"
+  },
+  "email": "kunnhox2301@gmail.com",
+  "root": "c:\\Users\\ASUS\\Desktop\\Mlop prj",
+  "host": "LAPTOP-G2BCALLP",
+  "executable": "c:\\Users\\ASUS\\Desktop\\Mlop prj\\.env\\Scripts\\python.exe",
+  "codePathLocal": "2_eda.ipynb",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "240226996224",
+      "used": "202672803840"
+    }
+  },
+  "memory": {
+    "total": "21154324480"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}
