@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 * * * *'  # Chạy mỗi giờ
+    - cron: '0 * * * *'
 
 jobs:
   build:
@@ -23,10 +23,12 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Login to Weights & Biases
-        run: wandb login ${{ secrets.WANDB_KEY_ID }}
+      - name: Check model file
+        run: |
+          ls -l
+          if [ ! -f model.pkl ]; then echo "❌ model.pkl not found"; exit 1; fi
 
-      - name: Run tests (if available)
+      - name: Run tests
         run: |
           pip install pytest
           if [ -d "tests" ]; then pytest; else echo "No tests directory found."; fi
@@ -38,5 +40,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Simulated Deploy Step
-        run: echo "✅ Deployment completed (no SSH used)"
+      - name: Deploy placeholder
+        run: echo "✅ Ready to deploy - add real deploy steps here"
