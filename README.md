@@ -7,12 +7,20 @@ This project is a **House Price Prediction** task using **XGBoost**. The goal is
 The goal of this project is to build a predictive model that estimates **SalePrice** of houses based on 79 features including square footage, neighborhood, garage capacity, etc. We use **XGBoost Regressor**, a powerful gradient boosting machine learning algorithm, for model training and evaluation.
 
 ### Key Steps:
-1. **Data Acquisition** - Fetch the raw dataset from Kaggle.
-2. **Exploratory Data Analysis (EDA)** - Analyze and visualize key patterns in the data.
-3. **Preprocessing** - Handle missing values, encode categorical features, and scale numerical data.
-4. **Model Training** - Train the model using **XGBoost Regressor**.
-5. **Evaluation & Experiment Tracking** - Log metrics and evaluate the model's performance using R², MAE, RMSE.
-6. **Future Work** - Identify areas for model improvement and deployment.
+![MLOps Pipeline](https://i.imgur.com/YasAOB0.png)
+---
+
+This pipeline includes the following stages:
+
+1. **Input data** - Load the raw dataset from Kaggle.
+2. **EDA** - Explore the dataset to understand structure, patterns, and correlations.
+3. **Features selection** - Select important features based on EDA insights.
+4. **Preprocess** - Handle missing values, encode categorical features, and scale numerical values.
+5. **Train and evaluate the performance of multiple model** - Train various models including XGBoost Regressor and evaluate using R², MAE, RMSE.
+6. **FastAPI** - Develop an API endpoint for serving the model.
+7. **Weights & Biases** - Track experiments, visualize training metrics, and manage model versions.
+
+---
 
 ## 🛠️ Technologies & Tools Used
 
